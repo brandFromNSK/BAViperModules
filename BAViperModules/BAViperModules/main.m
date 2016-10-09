@@ -1,6 +1,6 @@
 //
 //  main.m
-//  BAViperModules
+//  SFViperModules
 //
 //  Created by Андрей Бронников on 09.10.16.
 //  Copyright © 2016 ImproveDigital. All rights reserved.

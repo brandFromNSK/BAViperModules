@@ -7,49 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		34C8303FFB3538F6E7AAF651 /* BATitorialInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE26677D12E5B889573CFD /* BATitorialInteractor.m */; };
-		3976D4EDB0CFCBBEF923434A /* BATitorialPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80116A4CE66443A8249EA62F /* BATitorialPresenter.m */; };
-		4AEFBB78EC49265DAF69ED35 /* BATitorialRootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA92F8F0D1300451C08F4D5 /* BATitorialRootRouter.m */; };
-		4B4D4F17587F379FE0986B4E /* BATitorialRootAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C29AC243FCE45D1210DAC2 /* BATitorialRootAssembly.m */; };
-		5513A09AC60EA22F820405B1 /* BATitorialRootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B81751C3D842639DCC91C85 /* BATitorialRootInteractor.m */; };
+		34C8303FFB3538F6E7AAF651 /* SFTutorialInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FDE26677D12E5B889573CFD /* SFTutorialInteractor.m */; };
+		3976D4EDB0CFCBBEF923434A /* SFTutorialPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 80116A4CE66443A8249EA62F /* SFTutorialPresenter.m */; };
+		4AEFBB78EC49265DAF69ED35 /* SFTutorialRootRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BAA92F8F0D1300451C08F4D5 /* SFTutorialRootRouter.m */; };
+		4B4D4F17587F379FE0986B4E /* SFTutorialRootAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = F5C29AC243FCE45D1210DAC2 /* SFTutorialRootAssembly.m */; };
+		5513A09AC60EA22F820405B1 /* SFTutorialRootInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B81751C3D842639DCC91C85 /* SFTutorialRootInteractor.m */; };
+		55D1E1D41DAA6C0A00946301 /* SFTutorialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1E1D31DAA6C0A00946301 /* SFTutorialPageViewController.m */; };
+		55D1E1D71DAA6CF900946301 /* SFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D1E1D61DAA6CF900946301 /* SFButton.m */; };
 		55FDB5E01DA9800E005FE8D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDB5DF1DA9800E005FE8D4 /* main.m */; };
 		55FDB5E31DA9800E005FE8D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55FDB5E21DA9800E005FE8D4 /* AppDelegate.m */; };
 		55FDB5E91DA9800E005FE8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FDB5E71DA9800E005FE8D4 /* Main.storyboard */; };
 		55FDB5EB1DA9800E005FE8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55FDB5EA1DA9800E005FE8D4 /* Assets.xcassets */; };
 		55FDB5EE1DA9800E005FE8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55FDB5EC1DA9800E005FE8D4 /* LaunchScreen.storyboard */; };
-		5726FA0A206B5102E7CC2FB2 /* BATitorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B84FE1A0CA0347AD6E6602 /* BATitorialViewController.m */; };
-		63C22AA77B84400F55D9BA41 /* BATitorialPageInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB4CA7FCE01212D7AC0F68 /* BATitorialPageInteractor.m */; };
+		5726FA0A206B5102E7CC2FB2 /* SFTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B84FE1A0CA0347AD6E6602 /* SFTutorialViewController.m */; };
 		63E9DD153BB7FAA538A5AD5D /* libPods-BAViperModules.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735CF8D68EC67C41EC8B06A1 /* libPods-BAViperModules.a */; };
-		87283F163876EA512C48D0E5 /* BATitorialPagePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DC1B6166C73AF56AE9F224C /* BATitorialPagePresenter.m */; };
-		9A40D3ABBB7B43EFB8B69749 /* BATitorialPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26AB59978ECC2B35B28CE05C /* BATitorialPageViewController.m */; };
-		A659B60703A45FD0D06AA9F8 /* BATitorialPageRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A52C1268FA5285E5D907714 /* BATitorialPageRouter.m */; };
-		BB0E6A36B01256C3E96B57D1 /* BATitorialPageAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = F87DBBED0CD2D02BDA4B8801 /* BATitorialPageAssembly.m */; };
-		C37AD273BF6FEC4879C611A7 /* BATitorialAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A277CCB9F423ABA992EFE624 /* BATitorialAssembly.m */; };
-		D2680C60F90C40D7745F3ED5 /* BATitorialRootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4DD4884CC57E686A8B085B /* BATitorialRootPresenter.m */; };
-		D588F5FD4B3EEFBEF47D8A82 /* BATitorialRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87697AB0E6F95525380806F7 /* BATitorialRouter.m */; };
-		FBD16D39BE11BB666B9E53A3 /* BATitorialRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05BC2CF426D0BD4E68181C /* BATitorialRootViewController.m */; };
+		C37AD273BF6FEC4879C611A7 /* SFTutorialAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = A277CCB9F423ABA992EFE624 /* SFTutorialAssembly.m */; };
+		D2680C60F90C40D7745F3ED5 /* SFTutorialRootPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4DD4884CC57E686A8B085B /* SFTutorialRootPresenter.m */; };
+		D588F5FD4B3EEFBEF47D8A82 /* SFTutorialRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 87697AB0E6F95525380806F7 /* SFTutorialRouter.m */; };
+		FBD16D39BE11BB666B9E53A3 /* SFTutorialRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD05BC2CF426D0BD4E68181C /* SFTutorialRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01A1C3D663088A1A3D002D3E /* Pods-BAViperModules.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BAViperModules.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BAViperModules/Pods-BAViperModules.debug.xcconfig"; sourceTree = "<group>"; };
-		04DDCA83C6CCF4CE760C755C /* BATitorialPagePresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPagePresenter.h; sourceTree = "<group>"; };
-		0A140558C1B7B7A220E3DD2A /* BATitorialPageInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageInteractorOutput.h; sourceTree = "<group>"; };
-		115706124A00FDF28EC75C7A /* BATitorialInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialInteractorOutput.h; sourceTree = "<group>"; };
-		15E6D9DE816DBC4B1AB44127 /* BATitorialRootRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootRouterInput.h; sourceTree = "<group>"; };
-		1C6E42523498D862508626DF /* BATitorialPageViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageViewInput.h; sourceTree = "<group>"; };
-		228ED690D8EC1B612F5E95B7 /* BATitorialRootRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootRouter.h; sourceTree = "<group>"; };
-		24AD5F366073BEE9AD2E6ECA /* BATitorialPageModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageModuleInput.h; sourceTree = "<group>"; };
-		26AB59978ECC2B35B28CE05C /* BATitorialPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPageViewController.m; sourceTree = "<group>"; };
-		2789F91F740DD8EF42A3F011 /* BATitorialRootModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootModuleInput.h; sourceTree = "<group>"; };
-		2C672FAB854769F83EECECAC /* BATitorialInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialInteractor.h; sourceTree = "<group>"; };
-		2DC1B6166C73AF56AE9F224C /* BATitorialPagePresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPagePresenter.m; sourceTree = "<group>"; };
-		37132660FB56889129A61DD8 /* BATitorialViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialViewOutput.h; sourceTree = "<group>"; };
-		3A45798E35F08275ADC3A66C /* BATitorialPageViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageViewOutput.h; sourceTree = "<group>"; };
-		3D74DFB97396A04B10AE4692 /* BATitorialRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRouter.h; sourceTree = "<group>"; };
-		46C8859D3BEE3D4FC5F6941A /* BATitorialRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRouterInput.h; sourceTree = "<group>"; };
-		4AAB4CA7FCE01212D7AC0F68 /* BATitorialPageInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPageInteractor.m; sourceTree = "<group>"; };
-		4E63989F30D1ABF48AFCB3E0 /* BATitorialModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialModuleInput.h; sourceTree = "<group>"; };
-		5183C5B843B55EE39B72556B /* BATitorialPageInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageInteractor.h; sourceTree = "<group>"; };
+		115706124A00FDF28EC75C7A /* SFTutorialInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialInteractorOutput.h; sourceTree = "<group>"; };
+		15E6D9DE816DBC4B1AB44127 /* SFTutorialRootRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootRouterInput.h; sourceTree = "<group>"; };
+		228ED690D8EC1B612F5E95B7 /* SFTutorialRootRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootRouter.h; sourceTree = "<group>"; };
+		2789F91F740DD8EF42A3F011 /* SFTutorialRootModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootModuleInput.h; sourceTree = "<group>"; };
+		2C672FAB854769F83EECECAC /* SFTutorialInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialInteractor.h; sourceTree = "<group>"; };
+		37132660FB56889129A61DD8 /* SFTutorialViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialViewOutput.h; sourceTree = "<group>"; };
+		3D74DFB97396A04B10AE4692 /* SFTutorialRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRouter.h; sourceTree = "<group>"; };
+		46C8859D3BEE3D4FC5F6941A /* SFTutorialRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRouterInput.h; sourceTree = "<group>"; };
+		4E63989F30D1ABF48AFCB3E0 /* SFTutorialModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialModuleInput.h; sourceTree = "<group>"; };
+		55BA36491DAA9E610068D274 /* SFTutorialModuleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTutorialModuleOutput.h; sourceTree = "<group>"; };
+		55D1E1D21DAA6C0A00946301 /* SFTutorialPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFTutorialPageViewController.h; sourceTree = "<group>"; };
+		55D1E1D31DAA6C0A00946301 /* SFTutorialPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFTutorialPageViewController.m; sourceTree = "<group>"; };
+		55D1E1D51DAA6CF900946301 /* SFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFButton.h; sourceTree = "<group>"; };
+		55D1E1D61DAA6CF900946301 /* SFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFButton.m; sourceTree = "<group>"; };
 		55FDB5DB1DA9800E005FE8D4 /* BAViperModules.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BAViperModules.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55FDB5DF1DA9800E005FE8D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		55FDB5E11DA9800E005FE8D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,38 +51,31 @@
 		55FDB5EA1DA9800E005FE8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55FDB5ED1DA9800E005FE8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55FDB5EF1DA9800E005FE8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		56D0A49BABFD09B236EE9991 /* BATitorialRootViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootViewOutput.h; sourceTree = "<group>"; };
-		596F43CE054475EF76ACFC47 /* BATitorialPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPresenter.h; sourceTree = "<group>"; };
-		5A52C1268FA5285E5D907714 /* BATitorialPageRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPageRouter.m; sourceTree = "<group>"; };
-		628220C721FEB5D555BFA90B /* BATitorialPageRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageRouter.h; sourceTree = "<group>"; };
+		56D0A49BABFD09B236EE9991 /* SFTutorialRootViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootViewOutput.h; sourceTree = "<group>"; };
+		596F43CE054475EF76ACFC47 /* SFTutorialPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialPresenter.h; sourceTree = "<group>"; };
 		735CF8D68EC67C41EC8B06A1 /* libPods-BAViperModules.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BAViperModules.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		76B3276195F759F597240D47 /* BATitorialRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootViewController.h; sourceTree = "<group>"; };
-		77882243B18A69E5C716AF25 /* BATitorialRootViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootViewInput.h; sourceTree = "<group>"; };
-		78CCBE0233F23243D0D28A1E /* BATitorialPageInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageInteractorInput.h; sourceTree = "<group>"; };
-		7B81751C3D842639DCC91C85 /* BATitorialRootInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRootInteractor.m; sourceTree = "<group>"; };
-		80116A4CE66443A8249EA62F /* BATitorialPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPresenter.m; sourceTree = "<group>"; };
-		87697AB0E6F95525380806F7 /* BATitorialRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRouter.m; sourceTree = "<group>"; };
-		8F85D5992BEAE953A1C79AFF /* BATitorialRootPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootPresenter.h; sourceTree = "<group>"; };
-		8FDE26677D12E5B889573CFD /* BATitorialInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialInteractor.m; sourceTree = "<group>"; };
-		964EDBA7D171FA58852D542F /* BATitorialRootInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootInteractorInput.h; sourceTree = "<group>"; };
-		A277CCB9F423ABA992EFE624 /* BATitorialAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialAssembly.m; sourceTree = "<group>"; };
-		A8EE3755118F95EAAFDDE4CD /* BATitorialInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialInteractorInput.h; sourceTree = "<group>"; };
-		B0D6D7AA98E80307265C9BA3 /* BATitorialPageAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageAssembly.h; sourceTree = "<group>"; };
-		B22207F2782A88531208821D /* BATitorialAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialAssembly.h; sourceTree = "<group>"; };
-		B2B84FE1A0CA0347AD6E6602 /* BATitorialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialViewController.m; sourceTree = "<group>"; };
-		B399F45EB489D16E17F3B605 /* BATitorialPageRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageRouterInput.h; sourceTree = "<group>"; };
-		B8252E9D1EF21274619C9D40 /* BATitorialRootAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootAssembly.h; sourceTree = "<group>"; };
-		BAA92F8F0D1300451C08F4D5 /* BATitorialRootRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRootRouter.m; sourceTree = "<group>"; };
-		BD05BC2CF426D0BD4E68181C /* BATitorialRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRootViewController.m; sourceTree = "<group>"; };
-		BF4DD4884CC57E686A8B085B /* BATitorialRootPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRootPresenter.m; sourceTree = "<group>"; };
+		76B3276195F759F597240D47 /* SFTutorialRootViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootViewController.h; sourceTree = "<group>"; };
+		77882243B18A69E5C716AF25 /* SFTutorialRootViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootViewInput.h; sourceTree = "<group>"; };
+		7B81751C3D842639DCC91C85 /* SFTutorialRootInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRootInteractor.m; sourceTree = "<group>"; };
+		80116A4CE66443A8249EA62F /* SFTutorialPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialPresenter.m; sourceTree = "<group>"; };
+		87697AB0E6F95525380806F7 /* SFTutorialRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRouter.m; sourceTree = "<group>"; };
+		8F85D5992BEAE953A1C79AFF /* SFTutorialRootPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootPresenter.h; sourceTree = "<group>"; };
+		8FDE26677D12E5B889573CFD /* SFTutorialInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialInteractor.m; sourceTree = "<group>"; };
+		964EDBA7D171FA58852D542F /* SFTutorialRootInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootInteractorInput.h; sourceTree = "<group>"; };
+		A277CCB9F423ABA992EFE624 /* SFTutorialAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialAssembly.m; sourceTree = "<group>"; };
+		A8EE3755118F95EAAFDDE4CD /* SFTutorialInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialInteractorInput.h; sourceTree = "<group>"; };
+		B22207F2782A88531208821D /* SFTutorialAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialAssembly.h; sourceTree = "<group>"; };
+		B2B84FE1A0CA0347AD6E6602 /* SFTutorialViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialViewController.m; sourceTree = "<group>"; };
+		B8252E9D1EF21274619C9D40 /* SFTutorialRootAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootAssembly.h; sourceTree = "<group>"; };
+		BAA92F8F0D1300451C08F4D5 /* SFTutorialRootRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRootRouter.m; sourceTree = "<group>"; };
+		BD05BC2CF426D0BD4E68181C /* SFTutorialRootViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRootViewController.m; sourceTree = "<group>"; };
+		BF4DD4884CC57E686A8B085B /* SFTutorialRootPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRootPresenter.m; sourceTree = "<group>"; };
 		C1A8A95D581AB8ABF484A11F /* Pods-BAViperModules.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BAViperModules.release.xcconfig"; path = "Pods/Target Support Files/Pods-BAViperModules/Pods-BAViperModules.release.xcconfig"; sourceTree = "<group>"; };
-		CEC18C3853D8F0998FCBCA59 /* BATitorialRootInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootInteractorOutput.h; sourceTree = "<group>"; };
-		DE36AD78C0652BE65B5F9A0D /* BATitorialViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialViewInput.h; sourceTree = "<group>"; };
-		EBB2F190092A4F05FA91C895 /* BATitorialPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialPageViewController.h; sourceTree = "<group>"; };
-		F08EF2C2575D5035A2D77F48 /* BATitorialRootInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialRootInteractor.h; sourceTree = "<group>"; };
-		F3B47DA8DE81BE20E4A839E9 /* BATitorialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BATitorialViewController.h; sourceTree = "<group>"; };
-		F5C29AC243FCE45D1210DAC2 /* BATitorialRootAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialRootAssembly.m; sourceTree = "<group>"; };
-		F87DBBED0CD2D02BDA4B8801 /* BATitorialPageAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BATitorialPageAssembly.m; sourceTree = "<group>"; };
+		CEC18C3853D8F0998FCBCA59 /* SFTutorialRootInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootInteractorOutput.h; sourceTree = "<group>"; };
+		DE36AD78C0652BE65B5F9A0D /* SFTutorialViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialViewInput.h; sourceTree = "<group>"; };
+		F08EF2C2575D5035A2D77F48 /* SFTutorialRootInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialRootInteractor.h; sourceTree = "<group>"; };
+		F3B47DA8DE81BE20E4A839E9 /* SFTutorialViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SFTutorialViewController.h; sourceTree = "<group>"; };
+		F5C29AC243FCE45D1210DAC2 /* SFTutorialRootAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SFTutorialRootAssembly.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,46 +93,25 @@
 		02D32A9DEF95D7D7F0286702 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				2789F91F740DD8EF42A3F011 /* BATitorialRootModuleInput.h */,
-				8F85D5992BEAE953A1C79AFF /* BATitorialRootPresenter.h */,
-				BF4DD4884CC57E686A8B085B /* BATitorialRootPresenter.m */,
+				2789F91F740DD8EF42A3F011 /* SFTutorialRootModuleInput.h */,
+				8F85D5992BEAE953A1C79AFF /* SFTutorialRootPresenter.h */,
+				BF4DD4884CC57E686A8B085B /* SFTutorialRootPresenter.m */,
 			);
 			path = Presenter;
-			sourceTree = "<group>";
-		};
-		0BB26B91C75BFFE234B0AF9B /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-				78CCBE0233F23243D0D28A1E /* BATitorialPageInteractorInput.h */,
-				0A140558C1B7B7A220E3DD2A /* BATitorialPageInteractorOutput.h */,
-				5183C5B843B55EE39B72556B /* BATitorialPageInteractor.h */,
-				4AAB4CA7FCE01212D7AC0F68 /* BATitorialPageInteractor.m */,
-			);
-			path = Interactor;
 			sourceTree = "<group>";
 		};
 		0D4F613696D414337A0E48EF /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				18F8B7477EFE0FD786331549 /* TitorialRoot */,
-				B13B3E1D801BBC2EAFAF4340 /* Titorial */,
-				CAD2479A726C5CA00DECA65E /* TitorialPage */,
+				18F8B7477EFE0FD786331549 /* TutorialRoot */,
+				B13B3E1D801BBC2EAFAF4340 /* Tutorial */,
+				55D1E1D21DAA6C0A00946301 /* SFTutorialPageViewController.h */,
+				55D1E1D31DAA6C0A00946301 /* SFTutorialPageViewController.m */,
 			);
 			path = VIPER;
 			sourceTree = "<group>";
 		};
-		1393CCABDD6E4A126BE0306A /* View */ = {
-			isa = PBXGroup;
-			children = (
-				1C6E42523498D862508626DF /* BATitorialPageViewInput.h */,
-				3A45798E35F08275ADC3A66C /* BATitorialPageViewOutput.h */,
-				EBB2F190092A4F05FA91C895 /* BATitorialPageViewController.h */,
-				26AB59978ECC2B35B28CE05C /* BATitorialPageViewController.m */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		18F8B7477EFE0FD786331549 /* TitorialRoot */ = {
+		18F8B7477EFE0FD786331549 /* TutorialRoot */ = {
 			isa = PBXGroup;
 			children = (
 				C7F384F5639A70A4B99893F7 /* Assembly */,
@@ -155,25 +120,16 @@
 				863233732665EDFB0DD6BDBE /* Interactor */,
 				4AA1AC595F754E1FC24299B2 /* Router */,
 			);
+			name = TutorialRoot;
 			path = TitorialRoot;
-			sourceTree = "<group>";
-		};
-		39940199A66C321662444060 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				B399F45EB489D16E17F3B605 /* BATitorialPageRouterInput.h */,
-				628220C721FEB5D555BFA90B /* BATitorialPageRouter.h */,
-				5A52C1268FA5285E5D907714 /* BATitorialPageRouter.m */,
-			);
-			path = Router;
 			sourceTree = "<group>";
 		};
 		4AA1AC595F754E1FC24299B2 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				15E6D9DE816DBC4B1AB44127 /* BATitorialRootRouterInput.h */,
-				228ED690D8EC1B612F5E95B7 /* BATitorialRootRouter.h */,
-				BAA92F8F0D1300451C08F4D5 /* BATitorialRootRouter.m */,
+				15E6D9DE816DBC4B1AB44127 /* SFTutorialRootRouterInput.h */,
+				228ED690D8EC1B612F5E95B7 /* SFTutorialRootRouter.h */,
+				BAA92F8F0D1300451C08F4D5 /* SFTutorialRootRouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -202,6 +158,8 @@
 			children = (
 				55FDB5E11DA9800E005FE8D4 /* AppDelegate.h */,
 				55FDB5E21DA9800E005FE8D4 /* AppDelegate.m */,
+				55D1E1D51DAA6CF900946301 /* SFButton.h */,
+				55D1E1D61DAA6CF900946301 /* SFButton.m */,
 				55FDB5E71DA9800E005FE8D4 /* Main.storyboard */,
 				55FDB5EA1DA9800E005FE8D4 /* Assets.xcassets */,
 				55FDB5EC1DA9800E005FE8D4 /* LaunchScreen.storyboard */,
@@ -222,10 +180,10 @@
 		7A900170EA586495FF82A208 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				77882243B18A69E5C716AF25 /* BATitorialRootViewInput.h */,
-				56D0A49BABFD09B236EE9991 /* BATitorialRootViewOutput.h */,
-				76B3276195F759F597240D47 /* BATitorialRootViewController.h */,
-				BD05BC2CF426D0BD4E68181C /* BATitorialRootViewController.m */,
+				77882243B18A69E5C716AF25 /* SFTutorialRootViewInput.h */,
+				56D0A49BABFD09B236EE9991 /* SFTutorialRootViewOutput.h */,
+				76B3276195F759F597240D47 /* SFTutorialRootViewController.h */,
+				BD05BC2CF426D0BD4E68181C /* SFTutorialRootViewController.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -233,10 +191,10 @@
 		81A1DFB995E46E7702DE7F0C /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				A8EE3755118F95EAAFDDE4CD /* BATitorialInteractorInput.h */,
-				115706124A00FDF28EC75C7A /* BATitorialInteractorOutput.h */,
-				2C672FAB854769F83EECECAC /* BATitorialInteractor.h */,
-				8FDE26677D12E5B889573CFD /* BATitorialInteractor.m */,
+				A8EE3755118F95EAAFDDE4CD /* SFTutorialInteractorInput.h */,
+				115706124A00FDF28EC75C7A /* SFTutorialInteractorOutput.h */,
+				2C672FAB854769F83EECECAC /* SFTutorialInteractor.h */,
+				8FDE26677D12E5B889573CFD /* SFTutorialInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -244,10 +202,10 @@
 		863233732665EDFB0DD6BDBE /* Interactor */ = {
 			isa = PBXGroup;
 			children = (
-				964EDBA7D171FA58852D542F /* BATitorialRootInteractorInput.h */,
-				CEC18C3853D8F0998FCBCA59 /* BATitorialRootInteractorOutput.h */,
-				F08EF2C2575D5035A2D77F48 /* BATitorialRootInteractor.h */,
-				7B81751C3D842639DCC91C85 /* BATitorialRootInteractor.m */,
+				964EDBA7D171FA58852D542F /* SFTutorialRootInteractorInput.h */,
+				CEC18C3853D8F0998FCBCA59 /* SFTutorialRootInteractorOutput.h */,
+				F08EF2C2575D5035A2D77F48 /* SFTutorialRootInteractor.h */,
+				7B81751C3D842639DCC91C85 /* SFTutorialRootInteractor.m */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -255,8 +213,8 @@
 		8B625C8B735B225094EAF82D /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				B22207F2782A88531208821D /* BATitorialAssembly.h */,
-				A277CCB9F423ABA992EFE624 /* BATitorialAssembly.m */,
+				B22207F2782A88531208821D /* SFTutorialAssembly.h */,
+				A277CCB9F423ABA992EFE624 /* SFTutorialAssembly.m */,
 			);
 			path = Assembly;
 			sourceTree = "<group>";
@@ -278,7 +236,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		B13B3E1D801BBC2EAFAF4340 /* Titorial */ = {
+		B13B3E1D801BBC2EAFAF4340 /* Tutorial */ = {
 			isa = PBXGroup;
 			children = (
 				8B625C8B735B225094EAF82D /* Assembly */,
@@ -287,25 +245,16 @@
 				81A1DFB995E46E7702DE7F0C /* Interactor */,
 				BEBB4392704D88A63A317F86 /* Router */,
 			);
+			name = Tutorial;
 			path = Titorial;
-			sourceTree = "<group>";
-		};
-		B436E44026CDB458D81ABD6D /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-				24AD5F366073BEE9AD2E6ECA /* BATitorialPageModuleInput.h */,
-				04DDCA83C6CCF4CE760C755C /* BATitorialPagePresenter.h */,
-				2DC1B6166C73AF56AE9F224C /* BATitorialPagePresenter.m */,
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		BEBB4392704D88A63A317F86 /* Router */ = {
 			isa = PBXGroup;
 			children = (
-				46C8859D3BEE3D4FC5F6941A /* BATitorialRouterInput.h */,
-				3D74DFB97396A04B10AE4692 /* BATitorialRouter.h */,
-				87697AB0E6F95525380806F7 /* BATitorialRouter.m */,
+				46C8859D3BEE3D4FC5F6941A /* SFTutorialRouterInput.h */,
+				3D74DFB97396A04B10AE4692 /* SFTutorialRouter.h */,
+				87697AB0E6F95525380806F7 /* SFTutorialRouter.m */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -313,30 +262,19 @@
 		C7F384F5639A70A4B99893F7 /* Assembly */ = {
 			isa = PBXGroup;
 			children = (
-				B8252E9D1EF21274619C9D40 /* BATitorialRootAssembly.h */,
-				F5C29AC243FCE45D1210DAC2 /* BATitorialRootAssembly.m */,
+				B8252E9D1EF21274619C9D40 /* SFTutorialRootAssembly.h */,
+				F5C29AC243FCE45D1210DAC2 /* SFTutorialRootAssembly.m */,
 			);
 			path = Assembly;
-			sourceTree = "<group>";
-		};
-		CAD2479A726C5CA00DECA65E /* TitorialPage */ = {
-			isa = PBXGroup;
-			children = (
-				F3CD3A5D90F39838CBA41089 /* Assembly */,
-				1393CCABDD6E4A126BE0306A /* View */,
-				B436E44026CDB458D81ABD6D /* Presenter */,
-				0BB26B91C75BFFE234B0AF9B /* Interactor */,
-				39940199A66C321662444060 /* Router */,
-			);
-			path = TitorialPage;
 			sourceTree = "<group>";
 		};
 		D8C9867E84C8644352D3D5F9 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				4E63989F30D1ABF48AFCB3E0 /* BATitorialModuleInput.h */,
-				596F43CE054475EF76ACFC47 /* BATitorialPresenter.h */,
-				80116A4CE66443A8249EA62F /* BATitorialPresenter.m */,
+				4E63989F30D1ABF48AFCB3E0 /* SFTutorialModuleInput.h */,
+				55BA36491DAA9E610068D274 /* SFTutorialModuleOutput.h */,
+				596F43CE054475EF76ACFC47 /* SFTutorialPresenter.h */,
+				80116A4CE66443A8249EA62F /* SFTutorialPresenter.m */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -344,21 +282,12 @@
 		EA7F57C097469349FBFD2751 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				DE36AD78C0652BE65B5F9A0D /* BATitorialViewInput.h */,
-				37132660FB56889129A61DD8 /* BATitorialViewOutput.h */,
-				F3B47DA8DE81BE20E4A839E9 /* BATitorialViewController.h */,
-				B2B84FE1A0CA0347AD6E6602 /* BATitorialViewController.m */,
+				DE36AD78C0652BE65B5F9A0D /* SFTutorialViewInput.h */,
+				37132660FB56889129A61DD8 /* SFTutorialViewOutput.h */,
+				F3B47DA8DE81BE20E4A839E9 /* SFTutorialViewController.h */,
+				B2B84FE1A0CA0347AD6E6602 /* SFTutorialViewController.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F3CD3A5D90F39838CBA41089 /* Assembly */ = {
-			isa = PBXGroup;
-			children = (
-				B0D6D7AA98E80307265C9BA3 /* BATitorialPageAssembly.h */,
-				F87DBBED0CD2D02BDA4B8801 /* BATitorialPageAssembly.m */,
-			);
-			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -486,21 +415,18 @@
 			files = (
 				55FDB5E31DA9800E005FE8D4 /* AppDelegate.m in Sources */,
 				55FDB5E01DA9800E005FE8D4 /* main.m in Sources */,
-				4B4D4F17587F379FE0986B4E /* BATitorialRootAssembly.m in Sources */,
-				FBD16D39BE11BB666B9E53A3 /* BATitorialRootViewController.m in Sources */,
-				D2680C60F90C40D7745F3ED5 /* BATitorialRootPresenter.m in Sources */,
-				5513A09AC60EA22F820405B1 /* BATitorialRootInteractor.m in Sources */,
-				4AEFBB78EC49265DAF69ED35 /* BATitorialRootRouter.m in Sources */,
-				C37AD273BF6FEC4879C611A7 /* BATitorialAssembly.m in Sources */,
-				5726FA0A206B5102E7CC2FB2 /* BATitorialViewController.m in Sources */,
-				3976D4EDB0CFCBBEF923434A /* BATitorialPresenter.m in Sources */,
-				34C8303FFB3538F6E7AAF651 /* BATitorialInteractor.m in Sources */,
-				D588F5FD4B3EEFBEF47D8A82 /* BATitorialRouter.m in Sources */,
-				BB0E6A36B01256C3E96B57D1 /* BATitorialPageAssembly.m in Sources */,
-				9A40D3ABBB7B43EFB8B69749 /* BATitorialPageViewController.m in Sources */,
-				87283F163876EA512C48D0E5 /* BATitorialPagePresenter.m in Sources */,
-				63C22AA77B84400F55D9BA41 /* BATitorialPageInteractor.m in Sources */,
-				A659B60703A45FD0D06AA9F8 /* BATitorialPageRouter.m in Sources */,
+				4B4D4F17587F379FE0986B4E /* SFTutorialRootAssembly.m in Sources */,
+				FBD16D39BE11BB666B9E53A3 /* SFTutorialRootViewController.m in Sources */,
+				D2680C60F90C40D7745F3ED5 /* SFTutorialRootPresenter.m in Sources */,
+				5513A09AC60EA22F820405B1 /* SFTutorialRootInteractor.m in Sources */,
+				4AEFBB78EC49265DAF69ED35 /* SFTutorialRootRouter.m in Sources */,
+				55D1E1D41DAA6C0A00946301 /* SFTutorialPageViewController.m in Sources */,
+				C37AD273BF6FEC4879C611A7 /* SFTutorialAssembly.m in Sources */,
+				5726FA0A206B5102E7CC2FB2 /* SFTutorialViewController.m in Sources */,
+				3976D4EDB0CFCBBEF923434A /* SFTutorialPresenter.m in Sources */,
+				34C8303FFB3538F6E7AAF651 /* SFTutorialInteractor.m in Sources */,
+				55D1E1D71DAA6CF900946301 /* SFButton.m in Sources */,
+				D588F5FD4B3EEFBEF47D8A82 /* SFTutorialRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +470,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -592,6 +519,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

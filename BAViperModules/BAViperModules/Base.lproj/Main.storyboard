@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-777" y="-359"/>
         </scene>
-        <!--Titorial Root View Controller-->
+        <!--Tutorial Root View Controller-->
         <scene sceneID="Odi-Ms-ege">
             <objects>
-                <viewController id="m4U-Cq-aCJ" customClass="BATitorialRootViewController" sceneMemberID="viewController">
+                <viewController id="m4U-Cq-aCJ" customClass="SFTutorialRootViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="X68-nA-bsA"/>
                         <viewControllerLayoutGuide type="bottom" id="yGL-9o-JR0"/>
@@ -34,41 +35,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gnh-3q-VjT">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iMU-kF-Bnu">
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="400" id="qZ2-GZ-zdq"/>
-                                </constraints>
-                                <connections>
-                                    <segue destination="Nvs-TK-qWH" kind="embed" id="3NS-mH-kLr"/>
-                                </connections>
-                            </containerView>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="onV-sy-M20" customClass="SFButton">
+                                <state key="normal" title="BUTTON"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="main"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ur3-CS-37m" customClass="SFButton">
+                                <state key="normal" title="BUTTON"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="style" value="clear"/>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
                         <constraints>
-                            <constraint firstItem="gnh-3q-VjT" firstAttribute="leading" secondItem="OQ2-mp-CAH" secondAttribute="leading" id="Cm8-S5-Nmf"/>
-                            <constraint firstItem="gnh-3q-VjT" firstAttribute="top" secondItem="X68-nA-bsA" secondAttribute="bottom" id="imO-mG-JVj"/>
-                            <constraint firstAttribute="trailing" secondItem="gnh-3q-VjT" secondAttribute="trailing" id="sek-R7-onc"/>
+                            <constraint firstItem="iMU-kF-Bnu" firstAttribute="leading" secondItem="OQ2-mp-CAH" secondAttribute="leadingMargin" id="1SZ-dz-1PU"/>
+                            <constraint firstItem="ur3-CS-37m" firstAttribute="top" secondItem="onV-sy-M20" secondAttribute="bottom" constant="16" id="2Ey-2O-2CM"/>
+                            <constraint firstItem="iMU-kF-Bnu" firstAttribute="trailing" secondItem="OQ2-mp-CAH" secondAttribute="trailingMargin" id="UjW-wV-XiV"/>
+                            <constraint firstItem="yGL-9o-JR0" firstAttribute="top" secondItem="ur3-CS-37m" secondAttribute="bottom" constant="16" id="Uja-Me-hDs"/>
+                            <constraint firstItem="onV-sy-M20" firstAttribute="centerX" secondItem="OQ2-mp-CAH" secondAttribute="centerX" id="bTK-YN-ovC"/>
+                            <constraint firstItem="ur3-CS-37m" firstAttribute="centerX" secondItem="OQ2-mp-CAH" secondAttribute="centerX" id="eBa-tn-sei"/>
+                            <constraint firstItem="onV-sy-M20" firstAttribute="top" secondItem="iMU-kF-Bnu" secondAttribute="bottom" constant="16" id="g40-mM-hT0"/>
+                            <constraint firstItem="iMU-kF-Bnu" firstAttribute="top" secondItem="OQ2-mp-CAH" secondAttribute="topMargin" constant="8" id="rcM-EC-8b0"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="uQI-nw-Mqi"/>
+                    <connections>
+                        <outlet property="embedSegueContainer" destination="iMU-kF-Bnu" id="wsy-t6-jSV"/>
+                        <segue destination="Nvs-TK-qWH" kind="custom" identifier="PageContainerEmbedSegue" customClass="RamblerEmbedSegue" id="OMO-6c-vu4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZeN-0h-Rme" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="16.800000000000001" y="-355.7721139430285"/>
         </scene>
-        <!--Titorial View Controller-->
+        <!--Tutorial View Controller-->
         <scene sceneID="uYs-zT-9GO">
             <objects>
-                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="min" id="Nvs-TK-qWH" customClass="BATitorialViewController" sceneMemberID="viewController"/>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="Nvs-TK-qWH" customClass="SFTutorialViewController" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ycQ-mw-Hw4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="778" y="-550"/>
+            <point key="canvasLocation" x="834" y="-549"/>
         </scene>
-        <!--Titorial Page View Controller-->
+        <!--Tutorial Page View Controller-->
         <scene sceneID="E4I-i6-uQg">
             <objects>
-                <viewController storyboardIdentifier="Intro1ID" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7v2-Fi-sQI" customClass="BATitorialPageViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TutorialPageViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7v2-Fi-sQI" customClass="SFTutorialPageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FEg-k4-QUF"/>
                         <viewControllerLayoutGuide type="bottom" id="0Vq-Ze-yTa"/>
@@ -92,7 +108,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GAG-gf-0eU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="776.79999999999995" y="21.139430284857571"/>
+            <point key="canvasLocation" x="833" y="123"/>
         </scene>
     </scenes>
 </document>
